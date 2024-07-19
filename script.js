@@ -23,3 +23,8 @@ function divide(a,b){
     let result = a / b;
     return result;
 }
+
+// function to take 2 numbers and operator
+function operate (num1,operator,num2) {
+    add(num1,num2);
+}
