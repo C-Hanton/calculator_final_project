@@ -1,0 +1,39 @@
+
+
+#calculator {
+    font-family:sans-serif;
+    background-color:hsl(from black h s 10);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow:hidden;
+}
+
+#keys {
+    display:grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border:none;
+    background-color:hsl(from black h s 30);
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+#display {
+    width: 100%;
+    padding: 20px;
+    font-size: 4rem;
+    border:none;
+    text-align:left;
+    background-color:hsl(from black h s 15);
+    color:white;
+}
