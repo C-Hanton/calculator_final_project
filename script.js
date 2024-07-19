@@ -1,3 +1,8 @@
+// display variables for displaying calculator functions e.g. '2 + 2'
+let num1;
+let num2;
+let operator;
+
 // addition
 function add (a, b) {
 let result = a + b;
