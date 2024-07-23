@@ -1,7 +1,7 @@
 // display variables for displaying calculator functions e.g. '2 + 2'
-let num1;
-let num2;
-let operator;
+let previousuValue = ''
+let currentValue = ''
+let operator = ''
 const display = document.getElementById("display");
 const buttons = document.querySelectorAll("button");
 
