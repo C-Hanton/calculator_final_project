@@ -2,6 +2,7 @@
 let num1;
 let num2;
 let operator;
+let displayValue;
 
 // addition
 function add (a, b) {
