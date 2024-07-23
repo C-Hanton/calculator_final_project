@@ -2,7 +2,7 @@
 let num1;
 let num2;
 let operator;
-let displayValue;
+let displayValue = document.getElementById("display");
 
 // addition
 function add (a, b) {
@@ -29,3 +29,4 @@ function divide(a,b){
 function operate (num1,operator,num2) {
     add(num1,num2);
 }
+
