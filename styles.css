@@ -29,15 +29,25 @@ button {
 }
 
 #display {
+    display: flex;
+    height: 75px;
+    flex-direction: column;
     width: 100%;
     padding: 20px;
-    font-size: 4rem;
     border:none;
-    text-align:left;
     background-color:hsl(from black h s 15);
     color:white;
 }
 
+.previous {
+color: white;
+font-size: 2rem;
+}
+
+.current {
+color: white;
+font-size 3rem;
+}
 button.operator {
     background-color:hsl(from orange h s 40);
 }
