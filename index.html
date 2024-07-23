@@ -9,7 +9,10 @@
 </head>
 <body>           
     <div id="calculator">
-        <input id="display" readonly>
+        <div id="display">
+            <div id="previous"></div>
+            <div id="current"></div>
+        </div>
         <div id="keys">
             <button value="+" onclick ="appendToDisplay('+')" class ="operator">+</button>
             <button value ="7" onclick ="appendToDisplay('7')" class="number">7</button>
