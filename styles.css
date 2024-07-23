@@ -37,3 +37,23 @@ button {
     background-color:hsl(from black h s 15);
     color:white;
 }
+
+button.operator {
+    background-color:hsl(from orange h s 40);
+}
+
+button:hover {
+    background-color:hsl(from black h s 40);
+}
+
+button:active {
+    background-color:hsl(from black h s 55);
+}
+
+button.operator:hover {
+    background-color:hsl(from orange h s 55);
+}
+
+button.operator:active {
+    background-color:hsl(from orange h s 75);
+}
