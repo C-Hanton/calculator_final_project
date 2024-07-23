@@ -2,7 +2,7 @@
 let num1;
 let num2;
 let operator;
-const displayValue = document.getElementById("#display");
+const displayValue = document.getElementById("display");
 const buttons = document.querySelectorAll("button");
 
 // addition
