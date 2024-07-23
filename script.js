@@ -5,6 +5,10 @@ let operator;
 const displayValue = document.getElementById("display");
 const buttons = document.querySelectorAll("button");
 
+function appendToDisplay(num) {
+    console.log(num)
+}
+
 // addition
 function add (a, b) {
 let result = a + b;
