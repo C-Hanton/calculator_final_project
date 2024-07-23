@@ -39,14 +39,16 @@ button {
     color:white;
 }
 
-.previous {
+#previous {
 color: white;
 font-size: 2rem;
+height:100%;
 }
 
-.current {
+#current {
 color: white;
-font-size 3rem;
+font-size: 3rem;
+height:100%;
 }
 button.operator {
     background-color:hsl(from orange h s 40);
