@@ -13,7 +13,7 @@ function clearDisplay(){
 display.value = ""
 }
 
-function calculate() {
+function operate() {
 
 }
 
