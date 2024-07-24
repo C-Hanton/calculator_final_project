@@ -40,8 +40,14 @@ document.addEventListener("DOMContentLoaded", function (){
     
     equal.addEventListener("click", function(){
         calculate();
+        if (previousValue.length <= 5){
         currentScreen.textContent = previousValue;
         previousScreen.textContent = '';
+        } else {
+        currentScreen.textContent = previousValue.slice(0,5) + "...";
+        previousScreen.textContent = '';
+        }
+       
         
         
     })
