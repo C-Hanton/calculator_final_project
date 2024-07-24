@@ -1,3 +1,10 @@
+
+let operator = '';
+let previousValue = '';
+let currentValue = ';'
+
+
+
 document.addEventListener("DOMContentLoaded", function (){
     // store all components of HTML in JS
     let clear = document.querySelector(".all-clear");
