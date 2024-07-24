@@ -55,3 +55,7 @@ function handleNumber(num){
      currentValue += num;
     }
 }
+
+function calculate() {
+
+}
