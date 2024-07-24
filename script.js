@@ -33,8 +33,8 @@ document.addEventListener("DOMContentLoaded", function (){
         previousValue = '';
         currentValue = '';
         operator = '';
-        previousScreen.textContent = '';
-        currentScreen.textContent = '';
+        previousScreen.textContent = currentValue;
+        currentScreen.textContent = currentValue;
     })
 
     
