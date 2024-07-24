@@ -76,6 +76,6 @@ function calculate() {
     console.log(previousValue);
 }
 
-function roundNumber() {
-    
+function roundNumber(num) {
+return Math.round(num * 1000) / 1000;
 }
