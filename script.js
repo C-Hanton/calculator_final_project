@@ -73,7 +73,9 @@ function calculate() {
     } else if (operator === "/"){
         previousValue /= currentValue;
     }
-    console.log(previousValue);
+    previousValue = roundNumber(previousValue);
+    previousValue = previousValue.toString();
+    currentValue = previousValue.toString();
 }
 
 function roundNumber(num) {
