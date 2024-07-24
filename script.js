@@ -75,3 +75,7 @@ function calculate() {
     }
     console.log(previousValue);
 }
+
+function roundNumber() {
+    
+}
