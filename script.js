@@ -69,8 +69,9 @@ function calculate() {
     } else if (operator === "-"){
         previousValue -= currentValue;
     } else if (operator === "*"){
-        previousValue * currentValue;
+        previousValue *= currentValue;
     } else if (operator === "/"){
-        previousValue / currentValue;
+        previousValue /= currentValue;
     }
+    console.log(previousValue);
 }
