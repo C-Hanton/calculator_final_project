@@ -39,17 +39,20 @@ document.addEventListener("DOMContentLoaded", function (){
 
     
     equal.addEventListener("click", function(){
-        calculate();
-        if (previousValue.length <= 5){
-        currentScreen.textContent = previousValue;
-        previousScreen.textContent = '';
-        } else {
-        currentScreen.textContent = previousValue.slice(0,5) + "...";
-        previousScreen.textContent = '';
+        if (currentValue != '' && previousValue != ''){
+            calculate();
+            if (previousValue.length <= 5){
+            currentScreen.textContent = previousValue;
+            previousScreen.textContent = '';
+            } else {
+            currentScreen.textContent = previousValue.slice(0,5) + "...";
+            previousScreen.textContent = '';
+            }
         }
-       
-        
-        
+    })
+
+    decimal.addEventListener("click", function(){
+        addDecimal();
     })
 })
 
@@ -57,9 +60,6 @@ function handleOperator(op){
  operator = op;
  previousValue = currentValue;
  currentValue = "";
-
-
- 
 }
 
 function handleNumber(num){
@@ -88,4 +88,10 @@ function calculate() {
 
 function roundNumber(num) {
 return Math.round(num * 1000) / 1000;
+}
+
+function addDecimal(){
+    if (!currentValue.includes(".")){
+        currentValue += "."
+    }
 }
