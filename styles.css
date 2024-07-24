@@ -30,24 +30,32 @@ button {
 
 #display {
     display: flex;
-    height: 75px;
+    box-sizing: border-box;
+    height: 110px;
     flex-direction: column;
-    width: 100%;
-    padding: 20px;
+    overflow:hidden;
+    width: 500px;;
+    padding: 15px;
     border:none;
     background-color:hsl(from black h s 15);
     color:white;
+    justify-content: flex-end;
+    align-items:flex-end;
 }
 
 #previous {
 color: white;
-font-size: 2rem;
+box-sizing: border-box;
+overflow:hidden;
+font-size: 30px;
 height:100%;
 }
 
 #current {
 color: white;
-font-size: 3rem;
+box-sizing: border-box;
+overflow:hidden;
+font-size: 40px;
 height:100%;
 }
 button.operator {
