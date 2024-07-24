@@ -38,7 +38,11 @@ document.addEventListener("DOMContentLoaded", function (){
     })
 
     
-
+    equal.addEventListener("click", function(){
+        calculate();
+        
+        
+    })
 })
 
 function handleOperator(op){
@@ -57,5 +61,16 @@ function handleNumber(num){
 }
 
 function calculate() {
+    previousValue = Number(previousValue);
+    currentValue = Number(currentValue);
 
+    if(operator === "+"){
+        previousValue += currentValue;
+    } else if (operator === "-"){
+        previousValue -= currentValue;
+    } else if (operator === "*"){
+        previousValue * currentValue;
+    } else if (operator === "/"){
+        previousValue / currentValue;
+    }
 }
