@@ -77,3 +77,15 @@ button.operator:hover {
 button.operator:active {
     background-color:hsl(from orange h s 75);
 }
+
+button.all-clear {
+    background-color:hsl(from orange h s 40);
+}
+
+button.all-clear:hover {
+    background-color:hsl(from orange h s 55);
+}
+
+button.all-clear:active {
+    background-color:hsl(from orange h s 75);
+}
